@@ -1,0 +1,154 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+/* Section styling */
+.properties {
+  max-width: 800px;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.properties h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Cards styling */
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+}
+
+.cards img {
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.cards img:hover {
+  transform: scale(1.05);
+}
+
+.cards p {
+  max-width: 600px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #555;
+  font-style: italic;
+}
+
+/* Pagination styling */
+.pagination_navigation {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.pagination_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 50%;
+  background: #e9ecef;
+  color: #333;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.pagination_button:hover {
+  background: #ced4da;
+}
+
+#pages {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+#pages .page {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: #e9ecef;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+#pages .page:hover {
+  background: #495057;
+  color: #fff;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+/* Images row */
+.images-row {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap; /* mobile pe break ho jaaye */
+}
+
+.images-row img {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease-in-out;
+}
+.images-row img:hover {
+  transform: scale(1.05);
+}
+
+/* Text row */
+.text-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* agar text jyada ho to line break ho */
+  max-width: 1000px;
+}
+
+.text-row p {
+  background: #f8f9fa;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.4;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+
+
